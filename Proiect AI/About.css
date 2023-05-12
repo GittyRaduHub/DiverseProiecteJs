@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+
+
+body {
+    margin: 0;
+    background-color: #354649;
+}
+
+header {
+    background-color: white;
+}
+
+.navbar {
+    height: 110px;
+    background: white;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 5px 40px;
+}
+
+
+
+.navbar ul {
+    float: right;
+    margin-right: 0px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 25px 10px;
+    display: inline-block;
+    line-height: 30px;
+}
+
+.navbar ul li a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: #354649;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: -8px;
+    transition: 0.8s;
+}
+
+.navbar ul li a:hover:after {
+    width: 100%;
+}
+
+.navbar ul li a:hover {
+    font-weight: bold;
+    color: #354649;
+}
+
+.behind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A3C6C4;
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 1450px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6C7A89;
+    border: 20px black;
+    margin: 13px;
+    border-radius: 10px;
+    width: 450px;
+    height: 350px;
+    transition: 0.4s;
+}
+
+.element:hover {
+    transform: translate(0px, -15px);
+    box-shadow: 10px 5px 5px #354649;
+    ;
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.element a {
+    text-decoration: none;
+}
